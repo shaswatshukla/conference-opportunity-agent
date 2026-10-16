@@ -1,77 +1,131 @@
-# Global conference and funded-programme discovery agent
+# Global Opportunity Discovery Agent
 
-Current stage: **regional discovery with daily GitHub hosting**. LISA means The London Initiative for Safe AI; ERA means ERA:AI Fellowship. The user approved funded fellowships and AI safety programmes alongside conferences.
+[![Tests](https://github.com/shaswatshukla/conference-opportunity-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/shaswatshukla/conference-opportunity-agent/actions/workflows/ci.yml)
 
-Twelve source adapters are implemented; see the hosted global refresh section below. Discovery, grounded JSON extraction, official-page verification, deduplication, classification, budget scenarios, dated FX, visa flags, scoring, SQLite, Markdown and CSV exports work. Daily GitHub scheduling is authorized and configured. Drafts, ICS and notifications remain separate unfinished features. No applications or messages have been sent.
+A Python data pipeline that discovers conference and funded-programme opportunities, preserves source evidence, and produces a ranked report on a daily GitHub Actions schedule.
 
-## Setup
-Use Python 3.11+ and a short checkout path on Windows. From this repository directory:
+**Focus:** business analysis, data analytics, data governance, Python/data communities and AI safety programmes across **Europe, the United States, Japan and South Korea**, plus virtual events worldwide.
 
-~~~sh
-python -m venv .venv
-# Activate the environment using your shell's standard activation command.
+[Latest report](reports/latest.md) · [Daily refresh runs](https://github.com/shaswatshukla/conference-opportunity-agent/actions/workflows/schedule.yml) · [Architecture](ARCHITECTURE.md) · [Pipeline diagram](flow.md) · [Source registry](SOURCES.md)
+
+## The problem
+
+Conference fees are only one part of the attendance decision. Financial aid, volunteering, proposal deadlines, eligibility restrictions, travel costs and immigration requirements are scattered across different websites. Aggregator listings alone often omit the evidence needed to act confidently.
+
+This project turns those pages into a repeatable discovery and review workflow. It keeps missing facts visible instead of filling them with guesses, and reports failures alongside findings.
+
+## What is implemented
+
+- **12 source adapters:** ERA, LISA, USENIX, EuroPython, PyCon DE, PyCon Finland, PyCon Japan, PyCon Korea, PyCon US, PyData, IIBA and DAMA.
+- **Evidence-aware extraction:** exact source quotes, official URLs, retrieval timestamps and strict JSON validation.
+- **Two extraction paths:** conservative literal rules that need no API key, and an optional local LLM bridge with a separate fact-review boundary.
+- **Official-source verification:** per-adapter domain allowlists and field-level quote grounding.
+- **Conservative deduplication:** edition-aware matching that retains evidence and conflicting values.
+- **Opportunity classification:** free access, low-cost tiers, volunteering, grants, proposals and conference competitions; unsupported classifications remain unknown.
+- **Transparent ranking:** configurable weights, component-level explanations and zero positive points for missing evidence.
+- **Cost and feasibility scenarios:** clearly labelled planning assumptions, dated currency references and immigration-source notes.
+- **Persistent reporting:** SQLite run snapshots/source health, Markdown reports and CSV/JSON exports.
+- **Hosted operation:** daily refresh at **03:47 UTC / 09:17 India time**, manual workflow dispatch, cached public pages and downloadable run artifacts.
+
+GitHub schedules may be delayed. Configured regions describe the search scope, not a promise of complete coverage or successful access to every source.
+
+## Engineering decisions
+
+| Decision | Purpose |
+|---|---|
+| Separate source adapters from extraction and verification | Extend discovery without treating every new link as an official source. |
+| Preserve quotes and timestamps with each fact | Make a finding inspectable and distinguish cached evidence from a new check. |
+| Validate structured output before use | Reject missing fields, unexpected properties and unsupported quotes. |
+| Keep unknown values explicit | Avoid presenting an unspecified fee, eligibility rule or grant as confirmed. |
+| Retain merge conflicts | Make disagreements reviewable rather than silently choosing a value. |
+| Cache pages and persist rate-limit backoff | Reduce repeat requests and respect source limits. |
+| Isolate offline fixtures from live verification | Reproduce failures and regressions without calling an archived page freshly verified. |
+| Keep personal profiles out of GitHub | Make the project shareable while allowing local personalization. |
+
+## Architecture
+
+```text
+Official sources
+    → access policy + cached fetch
+    → strict extraction + source quotes
+    → official-page verification
+    → deduplication + conflict preservation
+    → classification + feasibility scenarios
+    → explained scores
+    → SQLite + Markdown + CSV/JSON
+    → daily GitHub Actions report
+```
+
+Core modules:
+
+| Area | Location |
+|---|---|
+| Pluggable sources and bounded crawling | `src/sources/` |
+| Robots checks, public-only transport, caching and backoff | `src/http.py` |
+| JSON schema and optional LLM bridge | `src/extract.py` |
+| No-key literal extraction | `src/literal.py` |
+| Verification and deduplication | `src/verify.py`, `src/dedupe.py` |
+| Classification, costs and scoring | `src/classify.py`, `src/feasibility.py`, `src/score.py` |
+| Run history and reports | `src/store.py`, `src/report.py` |
+| Scheduled entry point | `src/cloud.py` |
+
+## Run locally
+
+Requires Python 3.11+. From a checkout with an activated virtual environment:
+
+```bash
 python -m pip install -r requirements-dev.txt
 python -m unittest discover -s tests -v
 python -m src.main discover --fixtures
 python -m src.main discover
-~~~
+python -m src.main report
+```
 
-On Windows, use .venv/Scripts/python.exe explicitly if needed. In this existing workspace the bundled runtime and local dependencies are already available:
+The fixture command works without an extraction API key and produces separate offline outputs. Fixture records remain unverified as live opportunities.
 
-~~~powershell
-./run.ps1 test
-./run.ps1 fixtures
-./run.ps1 discover
-./run.ps1 report
-~~~
+On Windows, `run.ps1` supports `test`, `fixtures`, `discover` and `report`; pass `-Python` to choose an executable. Make targets provide the same common commands where Make is installed.
 
-Pass -Python with a Python executable path to run.ps1 to select another installation. On systems with Make, use make discover, make report, make fixtures, make test and make lint. make calendar deliberately fails with a pending-stage message; it does not emit a misleading ICS file.
+For local personalization, copy `data/profile.example.yaml` to `data/profile.yaml` and edit it. The personal file is ignored by Git. Hosted runs use the generic example profile.
 
-## Configuration and profile review
-Review data/profile.yaml and data/answers.yaml. Current student status, age and application answers are unknown. A completed MSc never establishes current-student eligibility. Edit config/interests.yaml, regions.yaml, watchlist.yaml, sources.yaml, estimates.yaml and scoring_weights.yaml. Region priorities are recorded for the later expanded source layer; current discovery coverage is only the three adapters, not all configured regions. The threshold defaults to strictly under USD 100.
+## Tests and validation
 
-config/estimates.yaml contains illustrative assumptions from Lucknow: flight, nightly accommodation, daily meals/local travel, and buffer days. These are not market quotes. The report shows the arithmetic and assumption date. Entry fees, insurance, immigration costs and conditional grants can leave personal net cost unknown even when a travel subtotal is available. Published stipend amounts are never treated as an award to the candidate. The initial assumptions await your review.
+**45 automated tests** cover source contracts, saved pages and access failures, schema validation, fabricated evidence, official-domain checks, redirect aliases, edition-aware merges, conflicting eligibility, cached timestamps, Retry-After persistence, currency conversion/expiry, conditional grants, scoring weights, multilingual text and end-to-end fixture exports.
 
-## LLM extraction and evidence review
-The initial public-page extractions were generated and checked by the assistant against saved official pages. They live in data/extractions keyed by page SHA256. A changed page must be extracted again; stale JSON is not silently reused.
+CI runs lint and tests. The daily workflow separately checks sources, commits the latest report and uploads CSV/JSON evidence artifacts.
 
-For new pages, configure an optional trusted local LLM bridge through EXTRACTOR_COMMAND in .env. The value is a JSON array of executable and arguments, invoked without a shell. The bridge receives one JSON request on stdin containing schema, URL, SHA256, public visible page text and grounding instructions, and returns only the extraction JSON on stdout. Its provider credentials belong in .env only. No provider, paid account, network endpoint or model is assumed. See config/extraction.schema.json and src/extract.py for the protocol. Do not pass the profile or personal answers to this extraction bridge.
+## Configuration and outputs
 
-Every known fact needs an exact source quote. Sensitive values must occur in their quote; unknown values use the literal unknown and an empty quote. Strict schema rejects extra/missing fields. New bridge output remains unverified pending fact/value review: finding a quote on a page alone does not prove that it entails the model's value. Only mark a saved extraction envelope review_status: fact_checked after reviewing all values against its matching page. Until a bridge or reviewed response exists, the page becomes an extraction gap, not a fabricated event. No account is needed for fixture tests.
+Configuration lives in `config/`: interests, watchlist, regions, sources, recurring seeds, scoring weights and illustrative travel assumptions.
 
-## Outputs
-- reports/YYYY-WW.md: current ranked report, evidence, estimates and coverage.
-- data/opportunities.csv and data/opportunities.json: current live snapshot.
-- data/opportunities.sqlite: durable run snapshots and source health.
-- reports/fixture-YYYY-WW.md and data/fixture-opportunities.*: isolated offline replay; fixtures never receive live verification.
-- data/cache/: ignored public-page/robots cache, including rate-limit backoff.
+Default scoring weights are relevance **40%**, personal net cost **25%**, deadline feasibility **15%**, networking/hiring evidence **10%** and eligibility certainty **10%**. Relevance is a labelled heuristic. Closed cycles appear below records requiring review.
 
-Official URLs are allowlisted per adapter, independently from extracted links. Verified refers to the known reviewed event facts, not affordability, selection, personal eligibility or visa approval. Merge conflicting facts without dropping evidence and demote the conflicting record. Cache use retains original retrieval times. Reports list visited, failed, skipped and queued URLs. Two successful empty source runs produce a health warning; an organization with no current announcement can legitimately be empty.
+- `reports/latest.md`: stable link to the latest hosted report.
+- `reports/YYYY-WW.md`: weekly digest file refreshed by daily runs.
+- `data/opportunities.csv` and `data/opportunities.json`: current live exports.
+- `data/opportunities.sqlite`: local/cached run history and source health.
+- GitHub workflow artifacts: downloadable reports and exports.
 
-## Scoring review
-Weights are relevance 40%, personal net cost 25%, deadline feasibility 15%, networking/hiring 10%, eligibility certainty 10%. Weights must sum to 1. Relevance is an explicitly labelled keyword heuristic using sourced topics and your interests; its strongest matching rule is used. The AI safety rule receives 80/100 and broader AI 50/100. Missing components earn zero and the known evidence weight is stored. Alumni affiliations and sponsor names never prove recruiter presence in Germany/Finland/India. Closed cycles are ordered below open/review-needed records regardless of topical score. Correct the weights before stage 5.
+## Boundaries and current limitations
+
+A verified record confirms its known, quoted source facts. It does **not** confirm acceptance, personal eligibility, a grant award, affordability or visa approval.
+
+The initial crawl attempts three pages per source. Some pages are blocked, unavailable, too large or rendered only through JavaScript; the report records those gaps. Native-language evidence is retained. Recurring historical editions do not establish a future edition.
+
+Literal extraction intentionally leaves many dates, prices and conditions unknown. New LLM output stays unverified until reviewed. Ticket-tier normalization, exact deadline/timezone handling and deduplication of incomplete records still need improvement.
+
+Travel budgets are illustrative assumptions, not market quotes. Conditional grants are not deducted as money already awarded. Saved FX references expire after seven days and visa references after thirty days; automatic reference refresh is not implemented.
+
+Application drafts, ICS export and notification delivery are planned features. **The agent never submits applications.**
 
 ## Access and privacy
-Prefer official APIs, RSS, iCal or sitemaps when provided. The initial adapters use a small public HTML crawl, checking robots.txt, pacing requests, obeying Retry-After via persistent backoff and caching responses for 24 hours. Redirects are rechecked. Failed/denied robots checks stop access. Private destinations, credential URLs, unreviewed query endpoints and nonstandard ports are blocked. No login bypass or CAPTCHA evasion. Source-specific terms still require review before broadening access; robots permission is not a terms-of-service guarantee. See SOURCES.md.
 
-Keep secrets only in ignored .env; never log them. Keep personal outputs in a private repository or private artifacts. No alerts or schedules are enabled and no submission code exists. Application submission always belongs to the user.
+The transport checks robots.txt, paces requests, caches public pages and respects rate-limit backoff. It blocks private-network destinations, embedded credentials and unreviewed query endpoints. No login bypass or CAPTCHA evasion is used; source-specific terms still apply.
 
-## Extending and limits
-Each source needs its own module, access metadata, public sanitized fixtures, contract tests and coverage notes. config/seeds.yaml records recurring official pages. Partner/sister URLs are queued and persisted, but do not gain official trust until evaluated. The historical ERA fixture is a sanitized official mentor-page excerpt demonstrating the 2025 cohort remains discoverable; it does not invent historical dates or grant terms.
+Credentials belong only in an ignored `.env`. Personal profiles, application answers, local credentials and drafts are excluded from the published project. See `.env.example` for the optional trusted local LLM-bridge contract.
 
-Twelve source adapters are implemented. Search API discovery, broader regional/body coverage and automatic reference refresh are not yet implemented. FX snapshots expire after seven days; visa references expire after thirty days. Stale or unavailable reference data yields unknown, not stale advice. Exact deadline timezones/CFP conditions still require official detail checks before ICS. Scalar evidence fields preserve source text; deeper ticket-tier and deadline normalization will accompany the calendar/application stage. Coverage is never complete. See reports/watchlist-resolution.md for identity research and the current digest for gaps.
+## Next improvements
 
-## Delivery stages
-1. Scaffold and documentation: complete.
-2. Resolve watchlist and expanded scope: complete.
-3. Three sources plus read-only evidence pipeline and tests: complete for initial bounded coverage.
-4. Classification, costs/visa uncertainty and scored list: ready for user review.
-5. Profile-grounded drafts, ICS with official-page spot-checks, approved alerts and GitHub Actions: pending scoring review.
-
-## Hosted global daily refresh
-
-The private GitHub repository is shaswatshukla/conference-opportunity-agent. Daily global refresh runs at 03:47 UTC (09:17 Asia/Kolkata), subject to GitHub scheduling delays. It can also run manually from Actions. The latest committed report is [reports/latest.md](reports/latest.md); CSV/JSON evidence are downloadable from each workflow run artifact.
-
-Twelve adapters now cover ERA, LISA, USENIX, EuroPython, PyCon DE, PyCon Finland, PyCon Japan, PyCon Korea, PyCon US, PyData, IIBA and DAMA. Each is bounded to three attempted pages per run. Native-language text is retained. Blocked, unavailable or JavaScript-only sources remain gaps rather than being bypassed. A past annual edition is historical, not a promise about the next one. The configured regional scope is broader than any finite crawl can fully cover.
-
-No paid LLM API key is necessary for daily refresh: conservative literal rules can refresh quoted names, announced grant terms and explicit statuses on supported official pages. Every other field stays unknown. A configured LLM bridge can improve coverage, with the existing fact-review boundary. Cloud runs use a generic example profile: your local profile, answers, credentials and drafts are not uploaded. FX/visa reference expiry remains enforced. No notification delivery or application submission is enabled.
+- Broader regional feeds and better selection of current-edition links.
+- Stronger structured date/ticket extraction and incomplete-record deduplication.
+- Automatic dated FX and immigration-reference refresh.
+- Profile-grounded draft preparation and validated calendar exports.
