@@ -1,9 +1,9 @@
 # Opportunity discovery: stage 4
 
-Run: 2026-10-16T20:43:09.970493+00:00 | Mode: live
+Run: 2026-10-16T20:49:09.543427+00:00 | Mode: live
 
 Scope includes conferences, fellowships and AI safety programmes.
-This is the scoring review checkpoint. Estimates and heuristic scores are separate from verified source facts. Drafts, ICS, alerts and scheduling are pending stage 5.
+This is the scoring review checkpoint. Estimates and heuristic scores are separate from verified source facts. Daily GitHub refresh is enabled; application drafts, ICS and alerts remain separate features.
 Verified means reviewed facts have grounded quotes on an allowlisted official page; it does not establish personal eligibility, affordability or a grant award.
 
 ## Act this week
@@ -21,7 +21,8 @@ Records are ordered by actionability, then conservative score. Closed cycles sta
 | Name | Kind | Dates | Location | Status | Confidence |
 |---|---|---|---|---|---|
 | Global Business Analysis Day | conference | unknown – unknown | unknown, unknown | unknown | verified |
-| USENIX Conference on Secure Agentic-AI Systems | conference | 2027-06-07 – 2027-06-08 | Santa Clara, USA | unknown | verified |
+| USENIX Conference on Secure Agentic-AI Systems | conference | unknown – unknown | unknown, unknown | unknown | verified |
+| USENIX Conference on Secure Agentic-AI Systems | conference | unknown – unknown | unknown, unknown | unknown | verified |
 | DAMA Days 2026 | conference | unknown – unknown | unknown, unknown | unknown | verified |
 | PyCon DE 2027 | conference | unknown – unknown | unknown, unknown | unknown | verified |
 | PyCon DE 2027 | conference | unknown – unknown | unknown, unknown | unknown | verified |
@@ -32,7 +33,8 @@ Records are ordered by actionability, then conservative score. Closed cycles sta
 | PyCon US 2026 | conference | unknown – unknown | unknown, unknown | unknown | verified |
 | PyData Amsterdam 2026 | conference | unknown – unknown | unknown, unknown | unknown | verified |
 | PyData Global 2026 | conference | unknown – unknown | unknown, unknown | unknown | verified |
-| SREcon27 Americas | conference | 2027-04-12 – 2027-04-14 | SEATTLE, USA | unknown | verified |
+| SREcon27 Americas | conference | unknown – unknown | unknown, unknown | unknown | verified |
+| SREcon27 Americas | conference | unknown – unknown | unknown, unknown | unknown | verified |
 | ERA:AI Fellowship | fellowship | 2027-01-18 – 2027-03-26 | Cambridge, UK | closed | verified |
 | EuroPython 2026 | conference | unknown – unknown | unknown, unknown | closed | verified |
 | PyCon JP 2026 | conference | unknown – unknown | unknown, unknown | closed | verified |
@@ -43,11 +45,12 @@ Scores use relevance 40%, net cost 25%, deadline feasibility 15%, networking/hir
 
 | Name | Primary type | Score /100 | Bucket | Estimated travel/stay INR | Personal net cost |
 |---|---|---|---|---|---|
-| Global Business Analysis Day | unknown | 40.0 | needs_review | unknown | unknown |
-| USENIX Conference on Secure Agentic-AI Systems | SPEAKER/POSTER | 20.0 | needs_review | 158000 | unknown |
+| Global Business Analysis Day | FREE | 65.0 | needs_review | 0 | 0 |
+| USENIX Conference on Secure Agentic-AI Systems | unknown | 20.0 | needs_review | unknown | unknown |
+| USENIX Conference on Secure Agentic-AI Systems | unknown | 20.0 | needs_review | unknown | unknown |
 | DAMA Days 2026 | unknown | 0.0 | needs_review | unknown | unknown |
 | PyCon DE 2027 | unknown | 0.0 | needs_review | unknown | unknown |
-| PyCon DE 2027 | FREE | 0.0 | needs_review | unknown | unknown |
+| PyCon DE 2027 | SCHOLARSHIP/GRANT | 0.0 | needs_review | unknown | unknown |
 | PyCon DE 2027 | unknown | 0.0 | needs_review | unknown | unknown |
 | PyCon JP 2026 | unknown | 0.0 | needs_review | unknown | unknown |
 | PyCon JP 2026 | unknown | 0.0 | needs_review | unknown | unknown |
@@ -55,9 +58,10 @@ Scores use relevance 40%, net cost 25%, deadline feasibility 15%, networking/hir
 | PyCon US 2026 | unknown | 0.0 | needs_review | unknown | unknown |
 | PyData Amsterdam 2026 | unknown | 0.0 | needs_review | unknown | unknown |
 | PyData Global 2026 | unknown | 0.0 | needs_review | 0 | unknown |
-| SREcon27 Americas | SPEAKER/POSTER | 0.0 | needs_review | 173000 | unknown |
+| SREcon27 Americas | unknown | 0.0 | needs_review | unknown | unknown |
+| SREcon27 Americas | unknown | 0.0 | needs_review | unknown | unknown |
 | ERA:AI Fellowship | SCHOLARSHIP/GRANT | 32.0 | closed | 970000 | unknown |
-| EuroPython 2026 | unknown | 0.0 | closed | unknown | unknown |
+| EuroPython 2026 | SCHOLARSHIP/GRANT | 0.0 | closed | unknown | unknown |
 | PyCon JP 2026 | unknown | 0.0 | closed | unknown | unknown |
 
 ## Watchlist updates
@@ -270,15 +274,17 @@ LISA = The London Initiative for Safe AI; ERA = ERA:AI Fellowship. Organization 
 ### Global Business Analysis Day
 
 Official URL: https://www.iiba.org/events/global-events-calendar/
-Last verified: 2026-10-16T20:44:29.089385+00:00
+Last verified: 2026-10-16T20:51:02.512121+00:00
 Extraction: literal_rules
 
-- name: **Global Business Analysis Day**. Source quote: “Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:44:29.089385+00:00).
-- edition: **2026**. Source quote: “Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:44:29.089385+00:00).
-- programme_kind: **conference**. Source quote: “View all chapter, conference, and webinar events through our portal and follow the link below.” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:44:29.089385+00:00).
-- topics: **Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream**. Source quote: “Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:44:29.089385+00:00).
+- name: **Global Business Analysis Day**. Source quote: “Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:51:02.512121+00:00).
+- edition: **2026**. Source quote: “Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:51:02.512121+00:00).
+- programme_kind: **conference**. Source quote: “View all chapter, conference, and webinar events through our portal and follow the link below.” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:51:02.512121+00:00).
+- format: **virtual**. Source quote: “Once a year, the global business analysis community comes together—and this is that moment. Global Business Analysis Day 2026 is a free, 24-hour virtual event that brings professionals from around the world together to learn, connect, and celebrate.” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:51:02.512121+00:00).
+- ticket_prices: **Once a year, the global business analysis community comes together—and this is that moment. Global Business Analysis Day 2026 is a free, 24-hour virtual event that brings professionals from around the world together to learn, connect, and celebrate.**. Source quote: “Once a year, the global business analysis community comes together—and this is that moment. Global Business Analysis Day 2026 is a free, 24-hour virtual event that brings professionals from around the world together to learn, connect, and celebrate.” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:51:02.512121+00:00).
+- topics: **Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream**. Source quote: “Global Business Analysis Day · Nov 6, 2026 · 24-hour free worldwide livestream” (https://www.iiba.org/events/global-events-calendar/; retrieved 2026-10-16T20:51:02.512121+00:00).
 
-Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
+Unknown: start_date, end_date, city, country, application_status, eligibility, deadlines, grant_coverage, recordings_free.
 
 
 Classification rationale: []
@@ -286,6 +292,38 @@ Classification rationale: []
 Score rationale:
 
 - relevance: 100/100; Heuristic inference from sourced name/topics and configured interests; strongest match used. Matches: [{'interest': 'business analysis', 'phrases': ['business analysis'], 'points': 100}]
+- net_cost: 100.0/100; Published/established personal-cost scenario in USD; USD 0 earns 100, USD 100+ earns 0. Matches: []
+- deadline_feasibility: 0/100; Application status, exact cutoff, visa timing or acceptance timing is unresolved. Matches: []
+- networking_hiring: 0/100; No verified recruiter/hiring presence in Germany, Finland or India; sponsors and alumni affiliations do not prove hiring access. Matches: []
+- eligibility_certainty: 0/100; Personal eligibility is not established; an MSc does not prove current student status and age is not supplied. Matches: []
+
+Cost/feasibility (estimates, not verified prices):
+
+- Travel/stay scenario: INR 0; USD 0.00. FX date: 2026-10-16; source: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html.
+- Published support: unknown; INR unknown; USD unknown. Published support is not an award to this candidate. Accommodation and uncovered costs remain unknown.
+- Personal net cost: 0. Missing: [].
+- Attendance assumption: virtual.
+- Deadline date: unknown; cutoff time/timezone: unknown. Visa timing: not applicable.
+- Visa requirement: No international travel in the remote-attendance scenario Route: not applicable; lead days: 0.
+- Visa note: unknown
+### USENIX Conference on Secure Agentic-AI Systems
+
+Official URL: https://www.usenix.org/conferences
+Last verified: 2026-10-16T20:49:33.209536+00:00
+Extraction: literal_rules
+
+- name: **USENIX Conference on Secure Agentic-AI Systems**. Source quote: “USENIX Conference on Secure Agentic-AI Systems” (https://www.usenix.org/conferences; retrieved 2026-10-16T20:49:33.209536+00:00).
+- programme_kind: **conference**. Source quote: “Conference FAQ” (https://www.usenix.org/conferences; retrieved 2026-10-16T20:49:33.209536+00:00).
+- topics: **USENIX Conference on Secure Agentic-AI Systems**. Source quote: “USENIX Conference on Secure Agentic-AI Systems” (https://www.usenix.org/conferences; retrieved 2026-10-16T20:49:33.209536+00:00).
+
+Unknown: edition, start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
+
+
+Classification rationale: []
+
+Score rationale:
+
+- relevance: 50/100; Heuristic inference from sourced name/topics and configured interests; strongest match used. Matches: [{'interest': 'ai', 'phrases': ['ai systems'], 'points': 50}]
 - net_cost: 0/100; Personal net cost is unknown; conditional grants and illustrative travel estimates are not affordability evidence. Matches: []
 - deadline_feasibility: 0/100; Application status, exact cutoff, visa timing or acceptance timing is unresolved. Matches: []
 - networking_hiring: 0/100; No verified recruiter/hiring presence in Germany, Finland or India; sponsors and alumni affiliations do not prove hiring access. Matches: []
@@ -303,27 +341,22 @@ Cost/feasibility (estimates, not verified prices):
 ### USENIX Conference on Secure Agentic-AI Systems
 
 Official URL: https://www.usenix.org/conference/sais27
-Last verified: 2026-10-16T16:29:41.921571+00:00
-Extraction: reviewed_llm_json
+Last verified: 2026-10-16T20:49:53.291937+00:00
+Extraction: literal_rules
 
-- name: **USENIX Conference on Secure Agentic-AI Systems**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- edition: **2027**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- programme_kind: **conference**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- start_date: **2027-06-07**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- end_date: **2027-06-08**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- city: **Santa Clara**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- country: **USA**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- deadlines: **Paper submissions due Thursday, February 4, 2027**. Source quote: “Paper submissions due Thursday, February 4, 2027” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
-- topics: **secure and privacy-preserving AI agents**. Source quote: “The conference welcomes researchers, practitioners, developers, and users from all over the world to explore cutting-edge ideas and principled approaches to designing, verifying, and deploying secure and privacy-preserving AI agents into real-world systems.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T16:29:41.921571+00:00).
+- name: **USENIX Conference on Secure Agentic-AI Systems**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T20:49:53.291937+00:00).
+- edition: **2027**. Source quote: “The USENIX Conference on Secure Agentic-AI Systems (SAIS '27) will take place on June 7–8, 2027, at the Hyatt Regency Santa Clara in Santa Clara, CA, USA.” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T20:49:53.291937+00:00).
+- programme_kind: **conference**. Source quote: “Conference Organizers” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T20:49:53.291937+00:00).
+- topics: **USENIX Conference on Secure Agentic-AI Systems**. Source quote: “USENIX Conference on Secure Agentic-AI Systems” (https://www.usenix.org/conference/sais27; retrieved 2026-10-16T20:49:53.291937+00:00).
 
-Unknown: format, application_status, ticket_prices, eligibility, grant_coverage, recordings_free.
+Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
 
-Classification rationale: ['An official CFP/proposal pathway is stated; speaker entry and travel support remain unknown unless explicitly sourced.']
+Classification rationale: []
 
 Score rationale:
 
-- relevance: 50/100; Heuristic inference from sourced name/topics and configured interests; strongest match used. Matches: [{'interest': 'ai', 'phrases': ['ai agents', 'ai systems'], 'points': 50}]
+- relevance: 50/100; Heuristic inference from sourced name/topics and configured interests; strongest match used. Matches: [{'interest': 'ai', 'phrases': ['ai systems'], 'points': 50}]
 - net_cost: 0/100; Personal net cost is unknown; conditional grants and illustrative travel estimates are not affordability evidence. Matches: []
 - deadline_feasibility: 0/100; Application status, exact cutoff, visa timing or acceptance timing is unresolved. Matches: []
 - networking_hiring: 0/100; No verified recruiter/hiring presence in Germany, Finland or India; sponsors and alumni affiliations do not prove hiring access. Matches: []
@@ -331,30 +364,23 @@ Score rationale:
 
 Cost/feasibility (estimates, not verified prices):
 
-- Travel/stay scenario: INR 158000; USD 1663.77. FX date: 2026-10-16; source: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html.
+- Travel/stay scenario: INR unknown; USD unknown. FX date: 2026-10-16; source: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html.
 - Published support: unknown; INR unknown; USD unknown. Published support is not an award to this candidate. Accommodation and uncovered costs remain unknown.
 - Personal net cost: unknown. Missing: ['candidate ticket tier', 'visa fees and appointment costs', 'insurance', 'grant award/payment timing and reimbursements'].
 - Attendance assumption: In-person planning scenario; attendance format is not confirmed.
-- Assumption: Illustrative budget only, set 2026-10-16; not a market quote.
-- Assumption: Return flight INR 110000 from Lucknow, India.
-- Assumption: 3 nights at INR 12000 per night.
-- Assumption: 4 days of meals/local transport at INR 3000 per day.
-- Assumption: Support is conditional and is not deducted without a confirmed award, coverage limits and payment timing.
-- Deadline date: 2027-02-04; cutoff time/timezone: unknown. Visa timing: unknown.
-- Visa requirement: Check appropriate US visa/entry permission for an Indian passport; existing valid permission is unknown. Route: B-1 is a visitor category that permits conference attendance; individual route/eligibility not determined.; lead days: unknown.
-- Visa note: Interview waits vary by consulate, season and category; no typical India-wide lead time is assumed.
-- Visa evidence: https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html; ['Attend a scientific, educational, professional, or business convention or conference', 'Wait times for interview appointments vary by location, season, and visa category, so you should apply for your visa early.']
-- Visa evidence: https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html; Participating-country list checked; India is not listed. This does not establish whether the candidate already holds a visa.
+- Deadline date: unknown; cutoff time/timezone: unknown. Visa timing: unknown.
+- Visa requirement: unknown Route: unknown; lead days: unknown.
+- Visa note: No fresh country/passport-specific reference; manual official-source check required.
 ### DAMA Days 2026
 
 Official URL: https://dama.org/events-conferences/dama-global-conference-calendar/
-Last verified: 2026-10-16T20:44:44.934660+00:00
+Last verified: 2026-10-16T20:51:12.659217+00:00
 Extraction: literal_rules
 
-- name: **DAMA Days 2026**. Source quote: “DAMA Days 2026: Data & AI” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:44:44.934660+00:00).
-- edition: **2026**. Source quote: “DAMA Days 2026: Data & AI” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:44:44.934660+00:00).
-- programme_kind: **conference**. Source quote: “DAMA® Global Conference Calendar - DAMA International®” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:44:44.934660+00:00).
-- topics: **DAMA Days 2026: Data & AI**. Source quote: “DAMA Days 2026: Data & AI” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:44:44.934660+00:00).
+- name: **DAMA Days 2026**. Source quote: “DAMA Days 2026: Data & AI” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:51:12.659217+00:00).
+- edition: **2026**. Source quote: “DAMA Days 2026: Data & AI” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:51:12.659217+00:00).
+- programme_kind: **conference**. Source quote: “DAMA® Global Conference Calendar - DAMA International®” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:51:12.659217+00:00).
+- topics: **DAMA Days 2026: Data & AI**. Source quote: “DAMA Days 2026: Data & AI” (https://dama.org/events-conferences/dama-global-conference-calendar/; retrieved 2026-10-16T20:51:12.659217+00:00).
 
 Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -381,13 +407,13 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon DE 2027
 
 Official URL: https://pycon.de/
-Last verified: 2026-10-16T20:43:24.561658+00:00
+Last verified: 2026-10-16T20:50:04.556602+00:00
 Extraction: literal_rules
 
-- name: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/; retrieved 2026-10-16T20:43:24.561658+00:00).
-- edition: **2027**. Source quote: “PyCon DE 2027” (https://pycon.de/; retrieved 2026-10-16T20:43:24.561658+00:00).
-- programme_kind: **conference**. Source quote: “The leading conference for applied AI with Open Source.” (https://pycon.de/; retrieved 2026-10-16T20:43:24.561658+00:00).
-- topics: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/; retrieved 2026-10-16T20:43:24.561658+00:00).
+- name: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/; retrieved 2026-10-16T20:50:04.556602+00:00).
+- edition: **2027**. Source quote: “PyCon DE 2027” (https://pycon.de/; retrieved 2026-10-16T20:50:04.556602+00:00).
+- programme_kind: **conference**. Source quote: “The leading conference for applied AI with Open Source.” (https://pycon.de/; retrieved 2026-10-16T20:50:04.556602+00:00).
+- topics: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/; retrieved 2026-10-16T20:50:04.556602+00:00).
 
 Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -414,22 +440,22 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon DE 2027
 
 Official URL: https://pycon.de/financial-aid/
-Last verified: 2026-10-16T20:43:27.228969+00:00
+Last verified: 2026-10-16T20:50:07.426854+00:00
 Extraction: literal_rules
 
-- name: **PyCon DE 2027**. Source quote: “Financial Aid Programme — PyCon DE 2027” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
-- edition: **2027**. Source quote: “Financial Aid Programme — PyCon DE 2027” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
-- programme_kind: **conference**. Source quote: “Travel – Reimbursements are issued after the conference once approved receipts are submitted. Payments are made via bank transfer or PayPal.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
-- ticket_prices: **Online Ticket: A complimentary standard online ticket.**. Source quote: “Online Ticket: A complimentary standard online ticket.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
-- eligibility: **Our programme is open to anyone who needs financial assistance.**. Source quote: “Our programme is open to anyone who needs financial assistance.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
-- deadlines: **2026-12-27 (23:59 CET) – Application deadline.**. Source quote: “2026-12-27 (23:59 CET) – Application deadline.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
-- grant_coverage: **Intercontinental Travel Grant: Up to 650€ in travel reimbursements, plus an on-site ticket and hotel accommodation.**. Source quote: “Intercontinental Travel Grant: Up to 650€ in travel reimbursements, plus an on-site ticket and hotel accommodation.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
-- topics: **Financial Aid Programme — PyCon DE 2027**. Source quote: “Financial Aid Programme — PyCon DE 2027” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:43:27.228969+00:00).
+- name: **PyCon DE 2027**. Source quote: “Financial Aid Programme — PyCon DE 2027” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
+- edition: **2027**. Source quote: “Financial Aid Programme — PyCon DE 2027” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
+- programme_kind: **conference**. Source quote: “Travel – Reimbursements are issued after the conference once approved receipts are submitted. Payments are made via bank transfer or PayPal.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
+- ticket_prices: **Online Ticket: A complimentary standard online ticket.**. Source quote: “Online Ticket: A complimentary standard online ticket.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
+- eligibility: **Our programme is open to anyone who needs financial assistance.**. Source quote: “Our programme is open to anyone who needs financial assistance.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
+- deadlines: **2026-12-27 (23:59 CET) – Application deadline.**. Source quote: “2026-12-27 (23:59 CET) – Application deadline.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
+- grant_coverage: **Intercontinental Travel Grant: Up to 650€ in travel reimbursements, plus an on-site ticket and hotel accommodation.**. Source quote: “Intercontinental Travel Grant: Up to 650€ in travel reimbursements, plus an on-site ticket and hotel accommodation.” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
+- topics: **Financial Aid Programme — PyCon DE 2027**. Source quote: “Financial Aid Programme — PyCon DE 2027” (https://pycon.de/financial-aid/; retrieved 2026-10-16T20:50:07.426854+00:00).
 
 Unknown: start_date, end_date, city, country, format, application_status, recordings_free.
 
 
-Classification rationale: []
+Classification rationale: ['Explicit financial support in grant_coverage evidence; award to this candidate is not established.']
 
 Score rationale:
 
@@ -451,13 +477,13 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon DE 2027
 
 Official URL: https://pycon.de/archive/2016/
-Last verified: 2026-10-16T20:43:30.515489+00:00
+Last verified: 2026-10-16T20:50:10.501371+00:00
 Extraction: literal_rules
 
-- name: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:43:30.515489+00:00).
-- edition: **2027**. Source quote: “PyCon DE 2027” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:43:30.515489+00:00).
-- programme_kind: **conference**. Source quote: “See the current edition for the upcoming conference.” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:43:30.515489+00:00).
-- topics: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:43:30.515489+00:00).
+- name: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:50:10.501371+00:00).
+- edition: **2027**. Source quote: “PyCon DE 2027” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:50:10.501371+00:00).
+- programme_kind: **conference**. Source quote: “See the current edition for the upcoming conference.” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:50:10.501371+00:00).
+- topics: **PyCon DE 2027**. Source quote: “PyCon DE 2027” (https://pycon.de/archive/2016/; retrieved 2026-10-16T20:50:10.501371+00:00).
 
 Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -484,12 +510,12 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon JP 2026
 
 Official URL: https://www.pycon.jp/
-Last verified: 2026-10-16T20:43:35.391267+00:00
+Last verified: 2026-10-16T20:50:14.387310+00:00
 Extraction: literal_rules
 
-- name: **PyCon JP 2026**. Source quote: “🐴 PyCon JP 2026” (https://www.pycon.jp/; retrieved 2026-10-16T20:43:35.391267+00:00).
-- edition: **2026**. Source quote: “🐴 PyCon JP 2026” (https://www.pycon.jp/; retrieved 2026-10-16T20:43:35.391267+00:00).
-- topics: **🐴 PyCon JP 2026**. Source quote: “🐴 PyCon JP 2026” (https://www.pycon.jp/; retrieved 2026-10-16T20:43:35.391267+00:00).
+- name: **PyCon JP 2026**. Source quote: “🐴 PyCon JP 2026” (https://www.pycon.jp/; retrieved 2026-10-16T20:50:14.387310+00:00).
+- edition: **2026**. Source quote: “🐴 PyCon JP 2026” (https://www.pycon.jp/; retrieved 2026-10-16T20:50:14.387310+00:00).
+- topics: **🐴 PyCon JP 2026**. Source quote: “🐴 PyCon JP 2026” (https://www.pycon.jp/; retrieved 2026-10-16T20:50:14.387310+00:00).
 
 Unknown: programme_kind, start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -516,13 +542,13 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon JP 2026
 
 Official URL: https://2026.pycon.jp/en
-Last verified: 2026-10-16T20:43:38.839523+00:00
+Last verified: 2026-10-16T20:50:17.524996+00:00
 Extraction: literal_rules
 
-- name: **PyCon JP 2026**. Source quote: “PyCon JP 2026” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:43:38.839523+00:00).
-- edition: **2026**. Source quote: “PyCon JP 2026” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:43:38.839523+00:00).
-- programme_kind: **conference**. Source quote: “Conference” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:43:38.839523+00:00).
-- topics: **PyCon JP 2026**. Source quote: “PyCon JP 2026” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:43:38.839523+00:00).
+- name: **PyCon JP 2026**. Source quote: “PyCon JP 2026” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:50:17.524996+00:00).
+- edition: **2026**. Source quote: “PyCon JP 2026” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:50:17.524996+00:00).
+- programme_kind: **conference**. Source quote: “Conference” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:50:17.524996+00:00).
+- topics: **PyCon JP 2026**. Source quote: “PyCon JP 2026” (https://2026.pycon.jp/en; retrieved 2026-10-16T20:50:17.524996+00:00).
 
 Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -549,12 +575,12 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon Korea 2026
 
 Official URL: https://2026.pycon.kr/
-Last verified: 2026-10-16T20:43:48.607913+00:00
+Last verified: 2026-10-16T20:50:25.836775+00:00
 Extraction: literal_rules
 
-- name: **PyCon Korea 2026**. Source quote: “PyCon Korea 2026” (https://2026.pycon.kr/; retrieved 2026-10-16T20:43:48.607913+00:00).
-- edition: **2026**. Source quote: “PyCon Korea 2026” (https://2026.pycon.kr/; retrieved 2026-10-16T20:43:48.607913+00:00).
-- topics: **PyCon Korea 2026**. Source quote: “PyCon Korea 2026” (https://2026.pycon.kr/; retrieved 2026-10-16T20:43:48.607913+00:00).
+- name: **PyCon Korea 2026**. Source quote: “PyCon Korea 2026” (https://2026.pycon.kr/; retrieved 2026-10-16T20:50:25.836775+00:00).
+- edition: **2026**. Source quote: “PyCon Korea 2026” (https://2026.pycon.kr/; retrieved 2026-10-16T20:50:25.836775+00:00).
+- topics: **PyCon Korea 2026**. Source quote: “PyCon Korea 2026” (https://2026.pycon.kr/; retrieved 2026-10-16T20:50:25.836775+00:00).
 
 Unknown: programme_kind, start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -581,13 +607,13 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon US 2026
 
 Official URL: https://us.pycon.org/2026/
-Last verified: 2026-10-16T20:43:55.244446+00:00
+Last verified: 2026-10-16T20:50:32.099118+00:00
 Extraction: literal_rules
 
-- name: **PyCon US 2026**. Source quote: “PyCon US 2026” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:43:55.244446+00:00).
-- edition: **2026**. Source quote: “PyCon US 2026” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:43:55.244446+00:00).
-- programme_kind: **conference**. Source quote: “Conference breakdown:” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:43:55.244446+00:00).
-- topics: **PyCon US 2026**. Source quote: “PyCon US 2026” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:43:55.244446+00:00).
+- name: **PyCon US 2026**. Source quote: “PyCon US 2026” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:50:32.099118+00:00).
+- edition: **2026**. Source quote: “PyCon US 2026” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:50:32.099118+00:00).
+- programme_kind: **conference**. Source quote: “Conference breakdown:” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:50:32.099118+00:00).
+- topics: **PyCon US 2026**. Source quote: “PyCon US 2026” (https://us.pycon.org/2026/; retrieved 2026-10-16T20:50:32.099118+00:00).
 
 Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -614,13 +640,13 @@ Cost/feasibility (estimates, not verified prices):
 ### PyData Amsterdam 2026
 
 Official URL: https://amsterdam.pydata.org/conference
-Last verified: 2026-10-16T20:44:24.521323+00:00
+Last verified: 2026-10-16T20:50:59.003737+00:00
 Extraction: literal_rules
 
-- name: **PyData Amsterdam 2026**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:44:24.521323+00:00).
-- edition: **2026**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:44:24.521323+00:00).
-- programme_kind: **conference**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:44:24.521323+00:00).
-- topics: **Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:44:24.521323+00:00).
+- name: **PyData Amsterdam 2026**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:50:59.003737+00:00).
+- edition: **2026**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:50:59.003737+00:00).
+- programme_kind: **conference**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:50:59.003737+00:00).
+- topics: **Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026**. Source quote: “Conference \| PyData Amstedam 2026 — PyData Amsterdam 2026” (https://amsterdam.pydata.org/conference; retrieved 2026-10-16T20:50:59.003737+00:00).
 
 Unknown: start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -647,14 +673,14 @@ Cost/feasibility (estimates, not verified prices):
 ### PyData Global 2026
 
 Official URL: https://pydata.org/global2026/
-Last verified: 2026-10-16T20:44:20.054299+00:00
+Last verified: 2026-10-16T20:50:55.744075+00:00
 Extraction: literal_rules
 
-- name: **PyData Global 2026**. Source quote: “PyData Global 2026” (https://pydata.org/global2026/; retrieved 2026-10-16T20:44:20.054299+00:00).
-- edition: **2026**. Source quote: “PyData Global 2026” (https://pydata.org/global2026/; retrieved 2026-10-16T20:44:20.054299+00:00).
-- programme_kind: **conference**. Source quote: “Conference Overview” (https://pydata.org/global2026/; retrieved 2026-10-16T20:44:20.054299+00:00).
-- format: **virtual**. Source quote: “A Virtual Conference, Anywhere on Earth” (https://pydata.org/global2026/; retrieved 2026-10-16T20:44:20.054299+00:00).
-- topics: **PyData Global 2026**. Source quote: “PyData Global 2026” (https://pydata.org/global2026/; retrieved 2026-10-16T20:44:20.054299+00:00).
+- name: **PyData Global 2026**. Source quote: “PyData Global 2026” (https://pydata.org/global2026/; retrieved 2026-10-16T20:50:55.744075+00:00).
+- edition: **2026**. Source quote: “PyData Global 2026” (https://pydata.org/global2026/; retrieved 2026-10-16T20:50:55.744075+00:00).
+- programme_kind: **conference**. Source quote: “Conference Overview” (https://pydata.org/global2026/; retrieved 2026-10-16T20:50:55.744075+00:00).
+- format: **virtual**. Source quote: “A Virtual Conference, Anywhere on Earth” (https://pydata.org/global2026/; retrieved 2026-10-16T20:50:55.744075+00:00).
+- topics: **PyData Global 2026**. Source quote: “PyData Global 2026” (https://pydata.org/global2026/; retrieved 2026-10-16T20:50:55.744075+00:00).
 
 Unknown: start_date, end_date, city, country, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
@@ -680,24 +706,18 @@ Cost/feasibility (estimates, not verified prices):
 - Visa note: unknown
 ### SREcon27 Americas
 
-Official URL: https://www.usenix.org/conference/srecon27americas
-Last verified: 2026-10-16T16:29:31.623192+00:00
-Extraction: reviewed_llm_json
+Official URL: https://www.usenix.org/conferences
+Last verified: 2026-10-16T20:49:33.209536+00:00
+Extraction: literal_rules
 
-- name: **SREcon27 Americas**. Source quote: “SREcon27 Americas” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- edition: **2027**. Source quote: “April 12–14, 2027” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- programme_kind: **conference**. Source quote: “The conference has a culture of critical thought, deep technical insights, continuous improvement, and innovation.” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- start_date: **2027-04-12**. Source quote: “April 12–14, 2027” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- end_date: **2027-04-14**. Source quote: “April 12–14, 2027” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- city: **SEATTLE**. Source quote: “SEATTLE, WA, USA” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- country: **USA**. Source quote: “SEATTLE, WA, USA” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- deadlines: **Talk proposals due November 19, 2026**. Source quote: “Talk proposals due November 19, 2026” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
-- topics: **site reliability, systems engineering, and working with complex distributed systems at scale**. Source quote: “SREcon27 Americas is a gathering of engineers who care deeply about site reliability, systems engineering, and working with complex distributed systems at scale.” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T16:29:31.623192+00:00).
+- name: **SREcon27 Americas**. Source quote: “SREcon27 Americas” (https://www.usenix.org/conferences; retrieved 2026-10-16T20:49:33.209536+00:00).
+- programme_kind: **conference**. Source quote: “Conference FAQ” (https://www.usenix.org/conferences; retrieved 2026-10-16T20:49:33.209536+00:00).
+- topics: **SREcon27 Americas**. Source quote: “SREcon27 Americas” (https://www.usenix.org/conferences; retrieved 2026-10-16T20:49:33.209536+00:00).
 
-Unknown: format, application_status, ticket_prices, eligibility, grant_coverage, recordings_free.
+Unknown: edition, start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
 
 
-Classification rationale: ['An official CFP/proposal pathway is stated; speaker entry and travel support remain unknown unless explicitly sourced.']
+Classification rationale: []
 
 Score rationale:
 
@@ -709,45 +729,70 @@ Score rationale:
 
 Cost/feasibility (estimates, not verified prices):
 
-- Travel/stay scenario: INR 173000; USD 1821.73. FX date: 2026-10-16; source: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html.
+- Travel/stay scenario: INR unknown; USD unknown. FX date: 2026-10-16; source: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html.
 - Published support: unknown; INR unknown; USD unknown. Published support is not an award to this candidate. Accommodation and uncovered costs remain unknown.
 - Personal net cost: unknown. Missing: ['candidate ticket tier', 'visa fees and appointment costs', 'insurance', 'grant award/payment timing and reimbursements'].
 - Attendance assumption: In-person planning scenario; attendance format is not confirmed.
-- Assumption: Illustrative budget only, set 2026-10-16; not a market quote.
-- Assumption: Return flight INR 110000 from Lucknow, India.
-- Assumption: 4 nights at INR 12000 per night.
-- Assumption: 5 days of meals/local transport at INR 3000 per day.
-- Assumption: Support is conditional and is not deducted without a confirmed award, coverage limits and payment timing.
-- Deadline date: 2026-11-19; cutoff time/timezone: unknown. Visa timing: unknown.
-- Visa requirement: Check appropriate US visa/entry permission for an Indian passport; existing valid permission is unknown. Route: B-1 is a visitor category that permits conference attendance; individual route/eligibility not determined.; lead days: unknown.
-- Visa note: Interview waits vary by consulate, season and category; no typical India-wide lead time is assumed.
-- Visa evidence: https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html; ['Attend a scientific, educational, professional, or business convention or conference', 'Wait times for interview appointments vary by location, season, and visa category, so you should apply for your visa early.']
-- Visa evidence: https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html; Participating-country list checked; India is not listed. This does not establish whether the candidate already holds a visa.
+- Deadline date: unknown; cutoff time/timezone: unknown. Visa timing: unknown.
+- Visa requirement: unknown Route: unknown; lead days: unknown.
+- Visa note: No fresh country/passport-specific reference; manual official-source check required.
+### SREcon27 Americas
+
+Official URL: https://www.usenix.org/conference/srecon27americas
+Last verified: 2026-10-16T20:49:43.406494+00:00
+Extraction: literal_rules
+
+- name: **SREcon27 Americas**. Source quote: “SREcon27 Americas \| USENIX” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T20:49:43.406494+00:00).
+- programme_kind: **conference**. Source quote: “Conference Organizers” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T20:49:43.406494+00:00).
+- topics: **SREcon27 Americas \| USENIX**. Source quote: “SREcon27 Americas \| USENIX” (https://www.usenix.org/conference/srecon27americas; retrieved 2026-10-16T20:49:43.406494+00:00).
+
+Unknown: edition, start_date, end_date, city, country, format, application_status, ticket_prices, eligibility, deadlines, grant_coverage, recordings_free.
+
+
+Classification rationale: []
+
+Score rationale:
+
+- relevance: 0/100; Heuristic inference from sourced name/topics and configured interests; strongest match used. Matches: []
+- net_cost: 0/100; Personal net cost is unknown; conditional grants and illustrative travel estimates are not affordability evidence. Matches: []
+- deadline_feasibility: 0/100; Application status, exact cutoff, visa timing or acceptance timing is unresolved. Matches: []
+- networking_hiring: 0/100; No verified recruiter/hiring presence in Germany, Finland or India; sponsors and alumni affiliations do not prove hiring access. Matches: []
+- eligibility_certainty: 0/100; Personal eligibility is not established; an MSc does not prove current student status and age is not supplied. Matches: []
+
+Cost/feasibility (estimates, not verified prices):
+
+- Travel/stay scenario: INR unknown; USD unknown. FX date: 2026-10-16; source: https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html.
+- Published support: unknown; INR unknown; USD unknown. Published support is not an award to this candidate. Accommodation and uncovered costs remain unknown.
+- Personal net cost: unknown. Missing: ['candidate ticket tier', 'visa fees and appointment costs', 'insurance', 'grant award/payment timing and reimbursements'].
+- Attendance assumption: In-person planning scenario; attendance format is not confirmed.
+- Deadline date: unknown; cutoff time/timezone: unknown. Visa timing: unknown.
+- Visa requirement: unknown Route: unknown; lead days: unknown.
+- Visa note: No fresh country/passport-specific reference; manual official-source check required.
 ### ERA:AI Fellowship
 
 Official URL: https://erafellowship.org/
-Last verified: 2026-10-16T16:26:13.743163+00:00
+Last verified: 2026-10-16T20:49:12.811114+00:00
 Extraction: reviewed_llm_json
 
-- name: **ERA:AI Fellowship**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- name: **ERA:AI Fellowship**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- edition: **2027**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- edition: **2027**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- programme_kind: **fellowship**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- programme_kind: **fellowship**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- start_date: **2027-01-18**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- start_date: **2027-01-18**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- end_date: **2027-03-26**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- city: **Cambridge**. Source quote: “The next iteration of the Cambridge ERA:AI Fellowships will be held in Cambridge, UK, for 10-weeks starting in January 2027.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- city: **Cambridge**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- country: **UK**. Source quote: “The next iteration of the Cambridge ERA:AI Fellowships will be held in Cambridge, UK, for 10-weeks starting in January 2027.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- country: **UK**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- application_status: **closed**. Source quote: “Applications for Winter 2027 have closed. Stay tuned for future programmes.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- application_status: **closed**. Source quote: “Applications for our Winter 2027 Fellowship have now closed.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- eligibility: **There are no formal eligibility restrictions beyond being 18 or older.**. Source quote: “There are no formal eligibility restrictions beyond being 18 or older.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- grant_coverage: **Fellows receive a stipend of £10,000. On top of this, our fellows receive visa support, meal provisions during working hours, and travel expense coverage.**. Source quote: “Full funding: Fellows receive a stipend of £10,000. On top of this, our fellows receive visa support, meal provisions during working hours, and travel expense coverage.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
-- topics: **AI safety**. Source quote: “We welcome talented individuals from around the world at any career stage, who are motivated to contribute to AI safety and governance research.” (https://erafellowship.org/; retrieved 2026-10-16T16:26:13.743163+00:00).
-- topics: **AI safety**. Source quote: “At ERA, we support research across the full stack of frontier AI governance & technical AI safety, mentored by researchers from a wide range of organisations across government, academia & industry, including University of Cambridge, UK AI Security Institute, Centre for the Governance of AI, RAND Corporation, Google DeepMind, OpenAI, Anthropic & more.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T16:29:42.813458+00:00).
+- name: **ERA:AI Fellowship**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- name: **ERA:AI Fellowship**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- edition: **2027**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- edition: **2027**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- programme_kind: **fellowship**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- programme_kind: **fellowship**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- start_date: **2027-01-18**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- start_date: **2027-01-18**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- end_date: **2027-03-26**. Source quote: “The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- city: **Cambridge**. Source quote: “The next iteration of the Cambridge ERA:AI Fellowships will be held in Cambridge, UK, for 10-weeks starting in January 2027.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- city: **Cambridge**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- country: **UK**. Source quote: “The next iteration of the Cambridge ERA:AI Fellowships will be held in Cambridge, UK, for 10-weeks starting in January 2027.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- country: **UK**. Source quote: “The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- application_status: **closed**. Source quote: “Applications for Winter 2027 have closed. Stay tuned for future programmes.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- application_status: **closed**. Source quote: “Applications for our Winter 2027 Fellowship have now closed.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- eligibility: **There are no formal eligibility restrictions beyond being 18 or older.**. Source quote: “There are no formal eligibility restrictions beyond being 18 or older.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- grant_coverage: **Fellows receive a stipend of £10,000. On top of this, our fellows receive visa support, meal provisions during working hours, and travel expense coverage.**. Source quote: “Full funding: Fellows receive a stipend of £10,000. On top of this, our fellows receive visa support, meal provisions during working hours, and travel expense coverage.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
+- topics: **AI safety**. Source quote: “We welcome talented individuals from around the world at any career stage, who are motivated to contribute to AI safety and governance research.” (https://erafellowship.org/; retrieved 2026-10-16T20:49:12.811114+00:00).
+- topics: **AI safety**. Source quote: “At ERA, we support research across the full stack of frontier AI governance & technical AI safety, mentored by researchers from a wide range of organisations across government, academia & industry, including University of Cambridge, UK AI Security Institute, Centre for the Governance of AI, RAND Corporation, Google DeepMind, OpenAI, Anthropic & more.” (https://erafellowship.org/fellowship; retrieved 2026-10-16T20:49:15.789846+00:00).
 
 Unknown: format, ticket_prices, deadlines, recordings_free.
 
@@ -782,21 +827,21 @@ Cost/feasibility (estimates, not verified prices):
 ### EuroPython 2026
 
 Official URL: https://ep2026.europython.eu/finaid/
-Last verified: 2026-10-16T20:43:17.198571+00:00
+Last verified: 2026-10-16T20:49:57.888802+00:00
 Extraction: literal_rules
 
-- name: **EuroPython 2026**. Source quote: “Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:43:17.198571+00:00).
-- edition: **2026**. Source quote: “Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:43:17.198571+00:00).
-- programme_kind: **conference**. Source quote: “and community gatherings, or the separately ticketed social events. Across the whole conference, this is your space to share your voice and make meaningful connections. Our hope” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:43:17.198571+00:00).
-- application_status: **closed**. Source quote: “In-person Financial Aid applications have now ended.Remote Ticket Grant applications are now closed.” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:43:17.198571+00:00).
-- eligibility: **Our grants are open to everyone in need of financial support to participate in**. Source quote: “Our grants are open to everyone in need of financial support to participate in” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:43:17.198571+00:00).
-- grant_coverage: **[Closed] Travel/Accommodation Grant: We will reimburse travel and/or accommodation**. Source quote: “[Closed] Travel/Accommodation Grant: We will reimburse travel and/or accommodation” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:43:17.198571+00:00).
-- topics: **Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland**. Source quote: “Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:43:17.198571+00:00).
+- name: **EuroPython 2026**. Source quote: “Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:49:57.888802+00:00).
+- edition: **2026**. Source quote: “Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:49:57.888802+00:00).
+- programme_kind: **conference**. Source quote: “and community gatherings, or the separately ticketed social events. Across the whole conference, this is your space to share your voice and make meaningful connections. Our hope” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:49:57.888802+00:00).
+- application_status: **closed**. Source quote: “In-person Financial Aid applications have now ended.Remote Ticket Grant applications are now closed.” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:49:57.888802+00:00).
+- eligibility: **Our grants are open to everyone in need of financial support to participate in**. Source quote: “Our grants are open to everyone in need of financial support to participate in” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:49:57.888802+00:00).
+- grant_coverage: **[Closed] Travel/Accommodation Grant: We will reimburse travel and/or accommodation**. Source quote: “[Closed] Travel/Accommodation Grant: We will reimburse travel and/or accommodation” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:49:57.888802+00:00).
+- topics: **Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland**. Source quote: “Financial Aid \| EuroPython 2026 \| July 13th-19th 2026 \| Kraków, Poland” (https://ep2026.europython.eu/finaid/; retrieved 2026-10-16T20:49:57.888802+00:00).
 
 Unknown: start_date, end_date, city, country, format, ticket_prices, deadlines, recordings_free.
 
 
-Classification rationale: []
+Classification rationale: ['Explicit financial support in grant_coverage evidence; award to this candidate is not established.']
 
 Score rationale:
 
@@ -818,15 +863,15 @@ Cost/feasibility (estimates, not verified prices):
 ### PyCon JP 2026
 
 Official URL: https://2026.pycon.jp/ja/travel-grants
-Last verified: 2026-10-16T20:43:41.915017+00:00
+Last verified: 2026-10-16T20:50:20.541926+00:00
 Extraction: literal_rules
 
-- name: **PyCon JP 2026**. Source quote: “遠方支援 \| PyCon JP 2026” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:43:41.915017+00:00).
-- edition: **2026**. Source quote: “遠方支援 \| PyCon JP 2026” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:43:41.915017+00:00).
-- programme_kind: **conference**. Source quote: “注) 支援対象にカンファレンスチケット費用は含まれません。” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:43:41.915017+00:00).
-- application_status: **closed**. Source quote: “2026年6月30日 AoE（2026年7月1日 20:59 JST） ※募集は終了しました” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:43:41.915017+00:00).
-- grant_coverage: **実費の70%を支給します。ただし、以下の上限額を超えないものとします。**. Source quote: “実費の70%を支給します。ただし、以下の上限額を超えないものとします。” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:43:41.915017+00:00).
-- topics: **遠方支援 \| PyCon JP 2026**. Source quote: “遠方支援 \| PyCon JP 2026” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:43:41.915017+00:00).
+- name: **PyCon JP 2026**. Source quote: “遠方支援 \| PyCon JP 2026” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:50:20.541926+00:00).
+- edition: **2026**. Source quote: “遠方支援 \| PyCon JP 2026” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:50:20.541926+00:00).
+- programme_kind: **conference**. Source quote: “注) 支援対象にカンファレンスチケット費用は含まれません。” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:50:20.541926+00:00).
+- application_status: **closed**. Source quote: “2026年6月30日 AoE（2026年7月1日 20:59 JST） ※募集は終了しました” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:50:20.541926+00:00).
+- grant_coverage: **実費の70%を支給します。ただし、以下の上限額を超えないものとします。**. Source quote: “実費の70%を支給します。ただし、以下の上限額を超えないものとします。” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:50:20.541926+00:00).
+- topics: **遠方支援 \| PyCon JP 2026**. Source quote: “遠方支援 \| PyCon JP 2026” (https://2026.pycon.jp/ja/travel-grants; retrieved 2026-10-16T20:50:20.541926+00:00).
 
 Unknown: start_date, end_date, city, country, format, ticket_prices, eligibility, deadlines, recordings_free.
 
@@ -857,82 +902,78 @@ Cost/feasibility (estimates, not verified prices):
 |---|---|---|---|---|
 | era | 2 | 2 | 0 | 0 |
 
-- era: checked https://erafellowship.org/ (2026-10-16T16:26:13.743163+00:00; cached).
+- era: checked https://erafellowship.org/ (2026-10-16T20:49:12.811114+00:00; live).
 
-- era: checked https://erafellowship.org/fellowship (2026-10-16T16:29:42.813458+00:00; cached).
-| lisa | 1 | 0 | 0 | 3 |
+- era: checked https://erafellowship.org/fellowship (2026-10-16T20:49:15.789846+00:00; live).
+| lisa | 1 | 0 | 0 | 1 |
 
-- lisa: checked https://www.safeai.org.uk/ (2026-10-16T16:26:19.044856+00:00; cached).
-
-- BROKEN-SOURCE WARNING: lisa produced zero extracted records for at least two consecutive successful runs. This may mean no current announcement or an extraction gap; it does not prove the website is broken.
+- lisa: checked https://www.safeai.org.uk/ (2026-10-16T20:49:22.503925+00:00; live).
 
 - lisa gap: No edition-specific opportunity extracted from https://www.safeai.org.uk/
-| usenix | 3 | 2 | 0 | 0 |
+| usenix | 3 | 4 | 0 | 0 |
 
-- usenix: checked https://www.usenix.org/conferences (2026-10-16T16:26:30.457542+00:00; cached).
+- usenix: checked https://www.usenix.org/conferences (2026-10-16T20:49:33.209536+00:00; live).
 
-- usenix: checked https://www.usenix.org/conference/srecon27americas (2026-10-16T16:29:31.623192+00:00; cached).
+- usenix: checked https://www.usenix.org/conference/srecon27americas (2026-10-16T20:49:43.406494+00:00; live).
 
-- usenix: checked https://www.usenix.org/conference/sais27 (2026-10-16T16:29:41.921571+00:00; cached).
-
-- usenix gap: No edition-specific opportunity extracted from https://www.usenix.org/conferences
+- usenix: checked https://www.usenix.org/conference/sais27 (2026-10-16T20:49:53.291937+00:00; live).
 | europython | 1 | 1 | 1 | 0 |
 
-- europython: checked https://ep2026.europython.eu/finaid/ (2026-10-16T20:43:17.198571+00:00; live).
+- europython: checked https://ep2026.europython.eu/finaid/ (2026-10-16T20:49:57.888802+00:00; live).
 
 - Failed: https://europython.eu/: Robots unavailable: HTTP 302
 | pyconde | 3 | 3 | 0 | 0 |
 
-- pyconde: checked https://pycon.de/ (2026-10-16T20:43:24.561658+00:00; live).
+- pyconde: checked https://pycon.de/ (2026-10-16T20:50:04.556602+00:00; live).
 
-- pyconde: checked https://pycon.de/financial-aid/ (2026-10-16T20:43:27.228969+00:00; live).
+- pyconde: checked https://pycon.de/financial-aid/ (2026-10-16T20:50:07.426854+00:00; live).
 
-- pyconde: checked https://pycon.de/archive/2016/ (2026-10-16T20:43:30.515489+00:00; live).
+- pyconde: checked https://pycon.de/archive/2016/ (2026-10-16T20:50:10.501371+00:00; live).
 | pyconfi | 0 | 0 | 1 | 0 |
 
 - Failed: https://fi.pycon.org/: Robots unavailable: HTTP 301
 | pyconjp | 3 | 3 | 0 | 0 |
 
-- pyconjp: checked https://www.pycon.jp/ (2026-10-16T20:43:35.391267+00:00; live).
+- pyconjp: checked https://www.pycon.jp/ (2026-10-16T20:50:14.387310+00:00; live).
 
-- pyconjp: checked https://2026.pycon.jp/en (2026-10-16T20:43:38.839523+00:00; live).
+- pyconjp: checked https://2026.pycon.jp/en (2026-10-16T20:50:17.524996+00:00; live).
 
-- pyconjp: checked https://2026.pycon.jp/ja/travel-grants (2026-10-16T20:43:41.915017+00:00; live).
+- pyconjp: checked https://2026.pycon.jp/ja/travel-grants (2026-10-16T20:50:20.541926+00:00; live).
 | pyconkr | 1 | 1 | 1 | 0 |
 
-- pyconkr: checked https://2026.pycon.kr/ (2026-10-16T20:43:48.607913+00:00; live).
+- pyconkr: checked https://2026.pycon.kr/ (2026-10-16T20:50:25.836775+00:00; live).
 
 - Failed: https://pycon.kr/: Robots unavailable: HTTP 302
 | pyconus | 1 | 1 | 1 | 0 |
 
-- pyconus: checked https://us.pycon.org/2026/ (2026-10-16T20:43:55.244446+00:00; live).
+- pyconus: checked https://us.pycon.org/2026/ (2026-10-16T20:50:32.099118+00:00; live).
 
 - Failed: https://us.pycon.org/2027/: HTTP 404; no retry or bypass attempted
 | pydata | 3 | 2 | 0 | 0 |
 
-- pydata: checked https://pydata.org/upcoming-events/ (2026-10-16T20:44:09.450122+00:00; live).
+- pydata: checked https://pydata.org/upcoming-events/ (2026-10-16T20:50:45.833942+00:00; live).
 
-- pydata: checked https://pydata.org/global2026/ (2026-10-16T20:44:20.054299+00:00; live).
+- pydata: checked https://pydata.org/global2026/ (2026-10-16T20:50:55.744075+00:00; live).
 
-- pydata: checked https://amsterdam.pydata.org/conference (2026-10-16T20:44:24.521323+00:00; live).
+- pydata: checked https://amsterdam.pydata.org/conference (2026-10-16T20:50:59.003737+00:00; live).
 
 - pydata gap: No edition-specific opportunity extracted from https://pydata.org/upcoming-events/
 | iiba | 2 | 1 | 1 | 0 |
 
-- iiba: checked https://www.iiba.org/events/global-events-calendar/ (2026-10-16T20:44:29.089385+00:00; live).
+- iiba: checked https://www.iiba.org/events/global-events-calendar/ (2026-10-16T20:51:02.512121+00:00; live).
 
-- iiba: checked https://germany.iiba.org/Events (2026-10-16T20:44:39.512542+00:00; live).
+- iiba: checked https://germany.iiba.org/Events (2026-10-16T20:51:09.526711+00:00; live).
 
 - Failed: https://go.iiba.org/Global-Business-Analysis-Day-2026: Response too large
 
 - iiba gap: No edition-specific opportunity extracted from https://germany.iiba.org/Events
 | dama | 3 | 1 | 0 | 0 |
 
-- dama: checked https://dama.org/events-conferences/dama-global-conference-calendar/ (2026-10-16T20:44:44.934660+00:00; live).
+- dama: checked https://dama.org/events-conferences/dama-global-conference-calendar/ (2026-10-16T20:51:12.659217+00:00; live).
 
-- dama: checked https://dama.org/events-conferences/upcoming-events-conferences-webinars-workshops/ (2026-10-16T20:44:47.903229+00:00; live).
+- dama: checked https://dama.org/events-conferences/upcoming-events-conferences-webinars-workshops/ (2026-10-16T20:51:15.660276+00:00; live).
 
-- dama: checked https://dama.org/2025/12/08/chapter-dama_days-support/ (2026-10-16T20:44:54.009050+00:00; live).
+- dama: checked https://dama.org/2025/12/08/chapter-dama_days-support/ (2026-10-16T20:51:21.662828+00:00; live).
 
 - dama gap: No edition-specific opportunity extracted from https://dama.org/events-conferences/upcoming-events-conferences-webinars-workshops/
 
@@ -1132,5 +1173,5 @@ Queued partner/sister URLs are leads only and have not been verified:
 - https://www.usenix.org/conference/vehiclesec27
 - https://www.usenix.org/conference/vehiclesec27/call-for-papers
 
-Likely missing: all sources outside the three enabled adapters; Germany/Finland/India chapter coverage; search APIs; pagination and links beyond the page budget; pages without an available extraction; private or blocked pages; precise eligibility and grant terms on linked application forms. No completeness claim.
-No messages or applications were sent. No schedules are active.
+Coverage targets Europe (Germany and Finland prioritized), the US, Japan, South Korea, and virtual events worldwide. Likely missing: sources outside the twelve enabled adapters, unindexed local events, external application forms, pagination/links beyond the page budget, private/blocked or JavaScript-only pages, and unsupported fields. No completeness claim.
+No messages or applications were sent. GitHub refresh is scheduled daily at 09:17 Asia/Kolkata.
