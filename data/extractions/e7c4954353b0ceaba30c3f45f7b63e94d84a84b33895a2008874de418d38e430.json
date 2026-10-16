@@ -1,0 +1,73 @@
+{
+  "page_url": "https://erafellowship.org/",
+  "page_sha256": "e7c4954353b0ceaba30c3f45f7b63e94d84a84b33895a2008874de418d38e430",
+  "review_status": "fact_checked",
+  "reviewed_by": "assistant_source_review_2026-10-16",
+  "payload": {
+    "events": [
+      {
+        "official_url": "https://erafellowship.org/",
+        "name": {
+          "value": "ERA:AI Fellowship",
+          "quote": "The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed."
+        },
+        "edition": {
+          "value": "2027",
+          "quote": "The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed."
+        },
+        "programme_kind": {
+          "value": "fellowship",
+          "quote": "The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed."
+        },
+        "start_date": {
+          "value": "2027-01-18",
+          "quote": "The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed."
+        },
+        "end_date": {
+          "value": "2027-03-26",
+          "quote": "The next ERA:AI Fellowship will run in Winter 2027 (18th January - 26th March). Applications have now closed."
+        },
+        "city": {
+          "value": "Cambridge",
+          "quote": "The next iteration of the Cambridge ERA:AI Fellowships will be held in Cambridge, UK, for 10-weeks starting in January 2027."
+        },
+        "country": {
+          "value": "UK",
+          "quote": "The next iteration of the Cambridge ERA:AI Fellowships will be held in Cambridge, UK, for 10-weeks starting in January 2027."
+        },
+        "format": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "application_status": {
+          "value": "closed",
+          "quote": "Applications for Winter 2027 have closed. Stay tuned for future programmes."
+        },
+        "ticket_prices": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "eligibility": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "deadlines": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "grant_coverage": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "recordings_free": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "topics": {
+          "value": "AI safety",
+          "quote": "We welcome talented individuals from around the world at any career stage, who are motivated to contribute to AI safety and governance research."
+        }
+      }
+    ]
+  }
+}

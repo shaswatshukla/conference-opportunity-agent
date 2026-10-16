@@ -1,0 +1,4 @@
+enabled: [era, lisa, usenix, europython, pyconde, pyconfi, pyconjp, pyconkr, pyconus, pydata, iiba, dama]
+max_pages_per_source: 3
+cache_ttl_hours: 20
+min_request_interval_seconds: 3

@@ -1,0 +1,24 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+data/cache/*
+!data/cache/.gitkeep
+data/*.sqlite*
+data/opportunities.csv
+data/*.ics
+drafts/*
+!drafts/.gitkeep
+
+.deps/
+.ruff_cache/
+data/*opportunities.json
+data/*opportunities.csv
+data/test-tmp/
+
+# Personal files are local only; cloud runs use the generic example.
+data/profile.yaml
+data/answers.yaml
+publication-bundle.json

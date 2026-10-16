@@ -1,0 +1,15 @@
+# Illustrative planning assumptions, NOT verified flight/hotel prices.
+review_status: illustrative_defaults_awaiting_user_review
+assumed_on: '2026-10-16'
+origin: Lucknow, India
+buffer_nights: 1
+extra_travel_days: 2
+countries:
+  UK:
+    return_flight_inr: 70000
+    accommodation_per_night_inr: 10000
+    meals_and_local_transport_per_day_inr: 3000
+  USA:
+    return_flight_inr: 110000
+    accommodation_per_night_inr: 12000
+    meals_and_local_transport_per_day_inr: 3000

@@ -1,0 +1,55 @@
+name: Daily global refresh
+on:
+  schedule:
+    # 09:17 Asia/Kolkata; GitHub schedules can be delayed.
+    - cron: '47 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['src/**', 'config/**', '.github/workflows/schedule.yml']
+permissions:
+  contents: write
+concurrency:
+  group: global-discovery
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Restore public-source cache and source health
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/cache
+            data/opportunities.sqlite
+          key: discovery-${{ github.run_id }}
+          restore-keys: discovery-
+      - name: Refresh Europe, US, Japan, South Korea and global sources
+        run: python -m src.cloud
+      - name: Save evidence, CSV and coverage artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: global-discovery-${{ github.run_id }}
+          path: |
+            reports/
+            data/opportunities.csv
+            data/opportunities.json
+          retention-days: 30
+      - name: Commit latest public-source reports
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh global opportunity report"
+            git push
+          fi

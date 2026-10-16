@@ -1,0 +1,73 @@
+{
+  "page_url": "https://www.usenix.org/conference/srecon27americas",
+  "page_sha256": "73d6cdd91f6f2fc2347a97d31cae2be42fa211893b6ea6c00ca7136aeecf16e7",
+  "review_status": "fact_checked",
+  "reviewed_by": "assistant_source_review_2026-10-16",
+  "payload": {
+    "events": [
+      {
+        "official_url": "https://www.usenix.org/conference/srecon27americas",
+        "name": {
+          "value": "SREcon27 Americas",
+          "quote": "SREcon27 Americas"
+        },
+        "edition": {
+          "value": "2027",
+          "quote": "April 12–14, 2027"
+        },
+        "programme_kind": {
+          "value": "conference",
+          "quote": "The conference has a culture of critical thought, deep technical insights, continuous improvement, and innovation."
+        },
+        "start_date": {
+          "value": "2027-04-12",
+          "quote": "April 12–14, 2027"
+        },
+        "end_date": {
+          "value": "2027-04-14",
+          "quote": "April 12–14, 2027"
+        },
+        "city": {
+          "value": "SEATTLE",
+          "quote": "SEATTLE, WA, USA"
+        },
+        "country": {
+          "value": "USA",
+          "quote": "SEATTLE, WA, USA"
+        },
+        "format": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "application_status": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "ticket_prices": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "eligibility": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "deadlines": {
+          "value": "Talk proposals due November 19, 2026",
+          "quote": "Talk proposals due November 19, 2026"
+        },
+        "grant_coverage": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "recordings_free": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "topics": {
+          "value": "site reliability, systems engineering, and working with complex distributed systems at scale",
+          "quote": "SREcon27 Americas is a gathering of engineers who care deeply about site reliability, systems engineering, and working with complex distributed systems at scale."
+        }
+      }
+    ]
+  }
+}

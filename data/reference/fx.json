@@ -1,0 +1,20 @@
+{
+  "base": "EUR",
+  "rate_date": "2026-10-16",
+  "checked_date": "2026-10-16",
+  "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+  "rates": {
+    "EUR": 1,
+    "USD": 1.1253,
+    "GBP": 0.84385,
+    "INR": 106.864
+  },
+  "evidence": [
+    "16 October 2026",
+    "All currencies quoted against the euro (base currency)",
+    "USD | US dollar | 1.1253",
+    "GBP | Pound sterling | 0.84385",
+    "INR | Indian rupee | 106.8640"
+  ],
+  "note": "ECB reference rates for indicative comparisons; not bank transaction quotes."
+}

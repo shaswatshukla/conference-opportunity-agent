@@ -1,0 +1,54 @@
+{
+  "checked_date": "2026-10-16",
+  "max_age_days": 30,
+  "passport": "Indian",
+  "rules": {
+    "UK": {
+      "requirement": "Visa/appropriate UK entry permission generally required; existing status and exceptions not established.",
+      "route": "unknown",
+      "lead_days": "unknown",
+      "note": "Paid research fellowship route must be confirmed with the organizer. Do not apply the Standard Visitor processing benchmark to this fellowship.",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-visitor-visa-national-list",
+          "quotes": [
+            "List of nationalities requiring entry clearance prior to travel to the UK as a Visitor, or for any other purpose for less than six months",
+            "India"
+          ]
+        },
+        {
+          "url": "https://www.gov.uk/standard-visitor",
+          "quotes": [
+            "do paid or unpaid work for a UK company or as a self-employed person, unless you’re doing a permitted paid engagement or event"
+          ]
+        },
+        {
+          "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+          "quotes": [
+            "Standard Visitor | 3 weeks"
+          ],
+          "note": "Benchmark only, after application/biometrics; not an appointment-to-travel guarantee or a route determination."
+        }
+      ]
+    },
+    "USA": {
+      "requirement": "Check appropriate US visa/entry permission for an Indian passport; existing valid permission is unknown.",
+      "route": "B-1 is a visitor category that permits conference attendance; individual route/eligibility not determined.",
+      "lead_days": "unknown",
+      "note": "Interview waits vary by consulate, season and category; no typical India-wide lead time is assumed.",
+      "sources": [
+        {
+          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+          "quotes": [
+            "Attend a scientific, educational, professional, or business convention or conference",
+            "Wait times for interview appointments vary by location, season, and visa category, so you should apply for your visa early."
+          ]
+        },
+        {
+          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visa-waiver-program.html",
+          "note": "Participating-country list checked; India is not listed. This does not establish whether the candidate already holds a visa."
+        }
+      ]
+    }
+  }
+}

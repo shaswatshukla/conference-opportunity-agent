@@ -1,0 +1,296 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "events"
+  ],
+  "properties": {
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "edition",
+          "programme_kind",
+          "start_date",
+          "end_date",
+          "city",
+          "country",
+          "format",
+          "application_status",
+          "ticket_prices",
+          "eligibility",
+          "deadlines",
+          "grant_coverage",
+          "recordings_free",
+          "topics",
+          "official_url"
+        ],
+        "properties": {
+          "name": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "edition": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "programme_kind": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "start_date": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "end_date": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "city": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "country": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "format": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "application_status": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "ticket_prices": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "eligibility": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "deadlines": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "grant_coverage": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "recordings_free": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "topics": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "value",
+              "quote"
+            ],
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quote": {
+                "type": "string"
+              }
+            }
+          },
+          "official_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  }
+}

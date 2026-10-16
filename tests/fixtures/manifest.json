@@ -1,0 +1,119 @@
+{
+  "https://www.usenix.org/conference/srecon27americas": {
+    "file": "402f2ab2b919c604.html",
+    "retrieved_at": "2026-10-16T16:29:31.623192+00:00"
+  },
+  "https://erafellowship.org/": {
+    "file": "41a1417cbbfe34cf.html",
+    "retrieved_at": "2026-10-16T16:26:13.743163+00:00"
+  },
+  "https://www.usenix.org/conference/sais27": {
+    "file": "8e9d49e2e321b49b.html",
+    "retrieved_at": "2026-10-16T16:29:41.921571+00:00"
+  },
+  "https://www.usenix.org/conferences": {
+    "file": "bc48be63b52c7288.html",
+    "retrieved_at": "2026-10-16T16:26:30.457542+00:00"
+  },
+  "https://www.safeai.org.uk/": {
+    "file": "dd0ec1ee17cd3be5.html",
+    "retrieved_at": "2026-10-16T16:26:19.044856+00:00"
+  },
+  "https://erafellowship.org/fellowship": {
+    "file": "ee11f8e71f2308cf.html",
+    "retrieved_at": "2026-10-16T16:29:42.813458+00:00"
+  },
+  "https://erafellowship.org/mentors": {
+    "file": "historical-era.html",
+    "retrieved_at": "unknown",
+    "provenance": "Sanitized official web-search excerpt checked 2026-10-16; precise retrieval timestamp unknown. Fixture only."
+  },
+  "https://erafellowship.org/fellowship-1": {
+    "file": "ee11f8e71f2308cf.html",
+    "retrieved_at": "2026-10-16T16:29:42.813458+00:00",
+    "canonical_url": "https://erafellowship.org/fellowship"
+  },
+  "https://pycon.de/archive/2016/": {
+    "file": "0c134589a53b9e8c.html",
+    "retrieved_at": "2026-10-16T20:43:30.515489+00:00"
+  },
+  "https://pydata.org/upcoming-events/": {
+    "file": "0e3892d23873de35.html",
+    "retrieved_at": "2026-10-16T20:44:09.450122+00:00"
+  },
+  "https://pycon.de/": {
+    "file": "1331a66e6e2035a2.html",
+    "retrieved_at": "2026-10-16T20:43:24.561658+00:00"
+  },
+  "https://dama.org/events-conferences/upcoming-events-conferences-webinars-workshops/": {
+    "file": "2abc736807d00c0a.html",
+    "retrieved_at": "2026-10-16T20:44:47.903229+00:00"
+  },
+  "https://dama.org/2025/12/08/chapter-dama_days-support/": {
+    "file": "3dee9361fcef1f2d.html",
+    "retrieved_at": "2026-10-16T20:44:54.009050+00:00"
+  },
+  "https://dama.org/events-conferences/dama-global-conference-calendar/": {
+    "file": "5a57a82f10df533c.html",
+    "retrieved_at": "2026-10-16T20:44:44.934660+00:00"
+  },
+  "https://us.pycon.org/2026/": {
+    "file": "607ad359514263be.html",
+    "retrieved_at": "2026-10-16T20:43:55.244446+00:00"
+  },
+  "https://2026.pycon.jp/ja/travel-grants": {
+    "file": "663aca8325aa7b53.html",
+    "retrieved_at": "2026-10-16T20:43:41.915017+00:00"
+  },
+  "https://ep2026.europython.eu/finaid/": {
+    "file": "751d9760b432d262.html",
+    "retrieved_at": "2026-10-16T20:43:17.198571+00:00"
+  },
+  "https://www.iiba.org/events/global-events-calendar/": {
+    "file": "b38340cc2031b25d.html",
+    "retrieved_at": "2026-10-16T20:44:29.089385+00:00"
+  },
+  "https://www.pycon.jp/": {
+    "file": "b8ab95d764e39436.html",
+    "retrieved_at": "2026-10-16T20:43:35.391267+00:00"
+  },
+  "https://pydata.org/global2026/": {
+    "file": "d03b2044eb5f4cff.html",
+    "retrieved_at": "2026-10-16T20:44:20.054299+00:00"
+  },
+  "https://2026.pycon.kr/": {
+    "file": "e18cd2af2f486fdc.html",
+    "retrieved_at": "2026-10-16T20:43:48.607913+00:00"
+  },
+  "https://amsterdam.pydata.org/conference": {
+    "file": "e5cc194aec525fc7.html",
+    "retrieved_at": "2026-10-16T20:44:24.521323+00:00"
+  },
+  "https://pycon.de/financial-aid/": {
+    "file": "e94608452346df82.html",
+    "retrieved_at": "2026-10-16T20:43:27.228969+00:00"
+  },
+  "https://2026.pycon.jp/en": {
+    "file": "f0728723eaef29f4.html",
+    "retrieved_at": "2026-10-16T20:43:38.839523+00:00"
+  },
+  "https://germany.iiba.org/Events": {
+    "file": "f3587382999f4bbe.html",
+    "retrieved_at": "2026-10-16T20:44:39.512542+00:00"
+  },
+  "https://europython.eu/": {
+    "error": "Robots unavailable: HTTP 302"
+  },
+  "https://fi.pycon.org/": {
+    "error": "Robots unavailable: HTTP 301"
+  },
+  "https://pycon.kr/": {
+    "error": "Robots unavailable: HTTP 302"
+  },
+  "https://us.pycon.org/2027/": {
+    "error": "HTTP 404; no retry or bypass attempted"
+  },
+  "https://go.iiba.org/Global-Business-Analysis-Day-2026": {
+    "error": "Response too large"
+  }
+}

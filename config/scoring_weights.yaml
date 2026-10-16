@@ -1,0 +1,5 @@
+relevance: 0.40
+net_cost: 0.25
+deadline_feasibility: 0.15
+networking_hiring: 0.10
+eligibility_certainty: 0.10

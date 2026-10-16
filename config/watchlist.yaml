@@ -1,0 +1,14 @@
+status: identities_resolved
+entries:
+  - acronym: LISA
+    selected_identity: The London Initiative for Safe AI
+    official_url: https://www.safeai.org.uk/
+    entity_kind: organization
+    verification_url: https://www.safeai.org.uk/head-of-people
+  - acronym: ERA
+    selected_identity: ERA AI Fellowship
+    official_url: https://erafellowship.org/
+    entity_kind: fellowship
+candidate_report: reports/watchlist-resolution.md
+scope_note: User approved funded fellowships and AI safety programmes alongside conferences.
+scope_confirmed: true

@@ -1,0 +1,7 @@
+implementation_status: scoring_review_stage_4
+low_cost_threshold_usd: 100
+notifications_enabled: false
+submissions_enabled: false
+search_provider: unknown
+llm_provider: unknown
+travel_budget_inr: unknown

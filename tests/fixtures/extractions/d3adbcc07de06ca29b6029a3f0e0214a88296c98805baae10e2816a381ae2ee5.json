@@ -1,0 +1,73 @@
+{
+  "page_url": "https://erafellowship.org/fellowship",
+  "page_sha256": "d3adbcc07de06ca29b6029a3f0e0214a88296c98805baae10e2816a381ae2ee5",
+  "review_status": "fact_checked",
+  "reviewed_by": "assistant_source_review_2026-10-16",
+  "payload": {
+    "events": [
+      {
+        "official_url": "https://erafellowship.org/fellowship",
+        "name": {
+          "value": "ERA:AI Fellowship",
+          "quote": "The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027."
+        },
+        "edition": {
+          "value": "2027",
+          "quote": "The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027."
+        },
+        "programme_kind": {
+          "value": "fellowship",
+          "quote": "The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027."
+        },
+        "start_date": {
+          "value": "2027-01-18",
+          "quote": "The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027."
+        },
+        "end_date": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "city": {
+          "value": "Cambridge",
+          "quote": "The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027."
+        },
+        "country": {
+          "value": "UK",
+          "quote": "The Cambridge ERA:AI Fellowship is a 10-week research programme hosted in Cambridge, UK, with our Winter fellowship starting on 18th January, 2027."
+        },
+        "format": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "application_status": {
+          "value": "closed",
+          "quote": "Applications for our Winter 2027 Fellowship have now closed."
+        },
+        "ticket_prices": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "eligibility": {
+          "value": "There are no formal eligibility restrictions beyond being 18 or older.",
+          "quote": "There are no formal eligibility restrictions beyond being 18 or older."
+        },
+        "deadlines": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "grant_coverage": {
+          "value": "Fellows receive a stipend of £10,000. On top of this, our fellows receive visa support, meal provisions during working hours, and travel expense coverage.",
+          "quote": "Full funding: Fellows receive a stipend of £10,000. On top of this, our fellows receive visa support, meal provisions during working hours, and travel expense coverage."
+        },
+        "recordings_free": {
+          "value": "unknown",
+          "quote": ""
+        },
+        "topics": {
+          "value": "AI safety",
+          "quote": "At ERA, we support research across the full stack of frontier AI governance & technical AI safety, mentored by researchers from a wide range of organisations across government, academia & industry, including University of Cambridge, UK AI Security Institute, Centre for the Governance of AI, RAND Corporation, Google DeepMind, OpenAI, Anthropic & more."
+        }
+      }
+    ]
+  }
+}
