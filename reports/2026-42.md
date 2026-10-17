@@ -1,6 +1,6 @@
 # Opportunity discovery: stage 4
 
-Run: 2026-10-16T20:49:09.543427+00:00 | Mode: live
+Run: 2026-10-17T08:04:07.536572+00:00 | Mode: live
 
 Scope includes conferences, fellowships and AI safety programmes.
 This is the scoring review checkpoint. Estimates and heuristic scores are separate from verified source facts. Daily GitHub refresh is enabled; application drafts, ICS and alerts remain separate features.
@@ -902,78 +902,80 @@ Cost/feasibility (estimates, not verified prices):
 |---|---|---|---|---|
 | era | 2 | 2 | 0 | 0 |
 
-- era: checked https://erafellowship.org/ (2026-10-16T20:49:12.811114+00:00; live).
+- era: checked https://erafellowship.org/ (2026-10-16T20:49:12.811114+00:00; cached).
 
-- era: checked https://erafellowship.org/fellowship (2026-10-16T20:49:15.789846+00:00; live).
-| lisa | 1 | 0 | 0 | 1 |
+- era: checked https://erafellowship.org/fellowship (2026-10-16T20:49:15.789846+00:00; cached).
+| lisa | 1 | 0 | 0 | 2 |
 
-- lisa: checked https://www.safeai.org.uk/ (2026-10-16T20:49:22.503925+00:00; live).
+- lisa: checked https://www.safeai.org.uk/ (2026-10-16T20:49:22.503925+00:00; cached).
+
+- BROKEN-SOURCE WARNING: lisa produced zero extracted records for at least two consecutive successful runs. This may mean no current announcement or an extraction gap; it does not prove the website is broken.
 
 - lisa gap: No edition-specific opportunity extracted from https://www.safeai.org.uk/
 | usenix | 3 | 4 | 0 | 0 |
 
-- usenix: checked https://www.usenix.org/conferences (2026-10-16T20:49:33.209536+00:00; live).
+- usenix: checked https://www.usenix.org/conferences (2026-10-16T20:49:33.209536+00:00; cached).
 
-- usenix: checked https://www.usenix.org/conference/srecon27americas (2026-10-16T20:49:43.406494+00:00; live).
+- usenix: checked https://www.usenix.org/conference/srecon27americas (2026-10-16T20:49:43.406494+00:00; cached).
 
-- usenix: checked https://www.usenix.org/conference/sais27 (2026-10-16T20:49:53.291937+00:00; live).
+- usenix: checked https://www.usenix.org/conference/sais27 (2026-10-16T20:49:53.291937+00:00; cached).
 | europython | 1 | 1 | 1 | 0 |
 
-- europython: checked https://ep2026.europython.eu/finaid/ (2026-10-16T20:49:57.888802+00:00; live).
+- europython: checked https://ep2026.europython.eu/finaid/ (2026-10-16T20:49:57.888802+00:00; cached).
 
 - Failed: https://europython.eu/: Robots unavailable: HTTP 302
 | pyconde | 3 | 3 | 0 | 0 |
 
-- pyconde: checked https://pycon.de/ (2026-10-16T20:50:04.556602+00:00; live).
+- pyconde: checked https://pycon.de/ (2026-10-16T20:50:04.556602+00:00; cached).
 
-- pyconde: checked https://pycon.de/financial-aid/ (2026-10-16T20:50:07.426854+00:00; live).
+- pyconde: checked https://pycon.de/financial-aid/ (2026-10-16T20:50:07.426854+00:00; cached).
 
-- pyconde: checked https://pycon.de/archive/2016/ (2026-10-16T20:50:10.501371+00:00; live).
+- pyconde: checked https://pycon.de/archive/2016/ (2026-10-16T20:50:10.501371+00:00; cached).
 | pyconfi | 0 | 0 | 1 | 0 |
 
 - Failed: https://fi.pycon.org/: Robots unavailable: HTTP 301
 | pyconjp | 3 | 3 | 0 | 0 |
 
-- pyconjp: checked https://www.pycon.jp/ (2026-10-16T20:50:14.387310+00:00; live).
+- pyconjp: checked https://www.pycon.jp/ (2026-10-16T20:50:14.387310+00:00; cached).
 
-- pyconjp: checked https://2026.pycon.jp/en (2026-10-16T20:50:17.524996+00:00; live).
+- pyconjp: checked https://2026.pycon.jp/en (2026-10-16T20:50:17.524996+00:00; cached).
 
-- pyconjp: checked https://2026.pycon.jp/ja/travel-grants (2026-10-16T20:50:20.541926+00:00; live).
+- pyconjp: checked https://2026.pycon.jp/ja/travel-grants (2026-10-16T20:50:20.541926+00:00; cached).
 | pyconkr | 1 | 1 | 1 | 0 |
 
-- pyconkr: checked https://2026.pycon.kr/ (2026-10-16T20:50:25.836775+00:00; live).
+- pyconkr: checked https://2026.pycon.kr/ (2026-10-16T20:50:25.836775+00:00; cached).
 
 - Failed: https://pycon.kr/: Robots unavailable: HTTP 302
 | pyconus | 1 | 1 | 1 | 0 |
 
-- pyconus: checked https://us.pycon.org/2026/ (2026-10-16T20:50:32.099118+00:00; live).
+- pyconus: checked https://us.pycon.org/2026/ (2026-10-16T20:50:32.099118+00:00; cached).
 
 - Failed: https://us.pycon.org/2027/: HTTP 404; no retry or bypass attempted
 | pydata | 3 | 2 | 0 | 0 |
 
-- pydata: checked https://pydata.org/upcoming-events/ (2026-10-16T20:50:45.833942+00:00; live).
+- pydata: checked https://pydata.org/upcoming-events/ (2026-10-16T20:50:45.833942+00:00; cached).
 
-- pydata: checked https://pydata.org/global2026/ (2026-10-16T20:50:55.744075+00:00; live).
+- pydata: checked https://pydata.org/global2026/ (2026-10-16T20:50:55.744075+00:00; cached).
 
-- pydata: checked https://amsterdam.pydata.org/conference (2026-10-16T20:50:59.003737+00:00; live).
+- pydata: checked https://amsterdam.pydata.org/conference (2026-10-16T20:50:59.003737+00:00; cached).
 
 - pydata gap: No edition-specific opportunity extracted from https://pydata.org/upcoming-events/
 | iiba | 2 | 1 | 1 | 0 |
 
-- iiba: checked https://www.iiba.org/events/global-events-calendar/ (2026-10-16T20:51:02.512121+00:00; live).
+- iiba: checked https://www.iiba.org/events/global-events-calendar/ (2026-10-16T20:51:02.512121+00:00; cached).
 
-- iiba: checked https://germany.iiba.org/Events (2026-10-16T20:51:09.526711+00:00; live).
+- iiba: checked https://germany.iiba.org/Events (2026-10-16T20:51:09.526711+00:00; cached).
 
 - Failed: https://go.iiba.org/Global-Business-Analysis-Day-2026: Response too large
 
 - iiba gap: No edition-specific opportunity extracted from https://germany.iiba.org/Events
 | dama | 3 | 1 | 0 | 0 |
 
-- dama: checked https://dama.org/events-conferences/dama-global-conference-calendar/ (2026-10-16T20:51:12.659217+00:00; live).
+- dama: checked https://dama.org/events-conferences/dama-global-conference-calendar/ (2026-10-16T20:51:12.659217+00:00; cached).
 
-- dama: checked https://dama.org/events-conferences/upcoming-events-conferences-webinars-workshops/ (2026-10-16T20:51:15.660276+00:00; live).
+- dama: checked https://dama.org/events-conferences/upcoming-events-conferences-webinars-workshops/ (2026-10-16T20:51:15.660276+00:00; cached).
 
-- dama: checked https://dama.org/2025/12/08/chapter-dama_days-support/ (2026-10-16T20:51:21.662828+00:00; live).
+- dama: checked https://dama.org/2025/12/08/chapter-dama_days-support/ (2026-10-16T20:51:21.662828+00:00; cached).
 
 - dama gap: No edition-specific opportunity extracted from https://dama.org/events-conferences/upcoming-events-conferences-webinars-workshops/
 
